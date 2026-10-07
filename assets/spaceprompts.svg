@@ -1,19 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="280" viewBox="0 0 900 280" role="img" aria-label="SpacePrompts: prompt playground with variables, version history, evaluator, and browser extensions for Chrome, Firefox and Edge">
   <title>SpacePrompts: prompt playground with variables, version history, evaluator, and browser extensions for Chrome, Firefox and Edge</title>
   <style>
-    .t { font: 800 32px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #e6edf3; letter-spacing: -.3px }
-    .tag { font: 500 15px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #8b949e }
-    .m { font: 500 13px ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; fill: #c9d1d9 }
-    .ms { font: 600 11px ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; fill: #8b949e; letter-spacing: .6px }
-    .chip { font: 600 11.5px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #c9d1d9 }
-    .url { font: 500 12px ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; fill: #8b949e }
-    .live { font: 700 10.5px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #3fb950; letter-spacing: .8px }
+    .t { font: 800 32px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #1f2328; letter-spacing: -.3px }
+    .tag { font: 500 15px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #59636e }
+    .m { font: 500 13px ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; fill: #424a53 }
+    .ms { font: 600 11px ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; fill: #59636e; letter-spacing: .6px }
+    .chip { font: 600 11.5px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #424a53 }
+    .url { font: 500 12px ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; fill: #59636e }
+    .live { font: 700 10.5px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #1a7f37; letter-spacing: .8px }
     .ld { animation: lp 1.8s ease-in-out 4; transform-box: fill-box; transform-origin: center }
     @keyframes lp { 0%,100% { opacity: 1; transform: scale(1) } 50% { opacity: .3; transform: scale(.6) } }
     
-    .var { fill: #818cf8; font-weight: 700 }
+    .var { fill: #4f46e5; font-weight: 700 }
     .var { animation: glow 2.4s ease-in-out 2 }
-    @keyframes glow { 0%,100% { fill: #818cf8 } 50% { fill: #c7d2fe } }
+    @keyframes glow { 0%,100% { fill: #4f46e5 } 50% { fill: #818cf8 } }
     .fill { transform-box: fill-box; transform-origin: 0 50%; animation: fill 9.0s cubic-bezier(.3,.7,.2,1) 1 forwards }
     @keyframes fill { 0%,10% { transform: scaleX(0) } 40%,100% { transform: scaleX(1) } }
     .chk { opacity: 0; animation: chk 9.0s ease-out 1 forwards }
@@ -36,35 +36,35 @@
     <clipPath id="f"><rect width="900" height="280" rx="16"/></clipPath>
   </defs>
   <g clip-path="url(#f)">
-    <rect width="900" height="280" fill="#0d1117"/>
-    <rect width="900" height="38" fill="#161b22"/>
-    <line x1="0" y1="38" x2="900" y2="38" stroke="#30363d"/>
+    <rect width="900" height="280" fill="#ffffff"/>
+    <rect width="900" height="38" fill="#f6f8fa"/>
+    <line x1="0" y1="38" x2="900" y2="38" stroke="#d0d7de"/>
     <circle cx="20" cy="19" r="5" fill="#ff5f57"/><circle cx="36" cy="19" r="5" fill="#febc2e"/><circle cx="52" cy="19" r="5" fill="#28c840"/>
-    <rect x="76" y="9" width="300" height="20" rx="10" fill="#0d1117" stroke="#30363d"/>
-    <path d="M88 17.5 v-2 a3 3 0 0 1 6 0 v2 M86.5 17.5 h9 v6 h-9 z" fill="none" stroke="#8b949e" stroke-width="1.2"/>
+    <rect x="76" y="9" width="300" height="20" rx="10" fill="#ffffff" stroke="#d0d7de"/>
+    <path d="M88 17.5 v-2 a3 3 0 0 1 6 0 v2 M86.5 17.5 h9 v6 h-9 z" fill="none" stroke="#59636e" stroke-width="1.2"/>
     <text class="url" x="101" y="23">spaceprompts.com</text>
     <g transform="translate(818 10)">
-      <rect width="62" height="18" rx="9" fill="#0f2417" stroke="#238636"/>
-      <circle class="ld" cx="12" cy="9" r="3.5" fill="#3fb950"/>
+      <rect width="62" height="18" rx="9" fill="#dafbe1" stroke="#1a7f37"/>
+      <circle class="ld" cx="12" cy="9" r="3.5" fill="#1a7f37"/>
       <text class="live" x="21" y="13">LIVE</text>
     </g>
     
     <text class="t" x="32" y="104">SpacePrompts</text>
     <text class="tag" x="32" y="136">Save, organize, and reuse</text>
     <text class="tag" x="32" y="158">every prompt that works.</text>
-    <g transform="translate(32 226)"><rect width="68.1" height="22" rx="11" fill="#161b22" stroke="#30363d"/><text class="chip" x="34.0" y="15" text-anchor="middle">Chrome</text></g><g transform="translate(106.1 226)"><rect width="62.6" height="22" rx="11" fill="#161b22" stroke="#30363d"/><text class="chip" x="31.3" y="15" text-anchor="middle">Firefox</text></g><g transform="translate(174.7 226)"><rect width="51.8" height="22" rx="11" fill="#161b22" stroke="#30363d"/><text class="chip" x="25.9" y="15" text-anchor="middle">Edge</text></g>
+    <g transform="translate(32 226)"><rect width="68.1" height="22" rx="11" fill="#f6f8fa" stroke="#d0d7de"/><text class="chip" x="34.0" y="15" text-anchor="middle">Chrome</text></g><g transform="translate(106.1 226)"><rect width="62.6" height="22" rx="11" fill="#f6f8fa" stroke="#d0d7de"/><text class="chip" x="31.3" y="15" text-anchor="middle">Firefox</text></g><g transform="translate(174.7 226)"><rect width="51.8" height="22" rx="11" fill="#f6f8fa" stroke="#d0d7de"/><text class="chip" x="25.9" y="15" text-anchor="middle">Edge</text></g>
     <g transform="translate(436 -53)">
-    <rect x="24" y="136" width="296" height="70" rx="10" fill="#161b22" stroke="#30363d"/>
+    <rect x="24" y="136" width="296" height="70" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
     <text class="m" x="36" y="161">Summarize <tspan class="var">{{article}}</tspan> for</text>
-    <text class="m" x="36" y="187">a <tspan class="var">{{audience}}</tspan> in 3 bullets.<tspan class="cur" style="fill:#818cf8">▍</tspan></text>
+    <text class="m" x="36" y="187">a <tspan class="var">{{audience}}</tspan> in 3 bullets.<tspan class="cur" style="fill:#4f46e5">▍</tspan></text>
 
-    <g class="v v1" transform="translate(334 186)"><rect width="82" height="20" rx="6" fill="#161b22" stroke="#30363d"/><circle cx="12" cy="10" r="3" fill="#8b949e"/><text class="m" x="22" y="14.5" style="font-size:11.5px">v1</text><rect x="44" y="8" width="28" height="4" rx="2" fill="#8b949e" fill-opacity=".5"/></g><g class="v v2" transform="translate(334 162)"><rect width="82" height="20" rx="6" fill="#161b22" stroke="#30363d"/><circle cx="12" cy="10" r="3" fill="#8b949e"/><text class="m" x="22" y="14.5" style="font-size:11.5px">v2</text><rect x="44" y="8" width="28" height="4" rx="2" fill="#8b949e" fill-opacity=".5"/></g><g class="v v3" transform="translate(334 138)"><rect width="82" height="20" rx="6" fill="#161b22" stroke="#30363d"/><circle cx="12" cy="10" r="3" fill="#8b949e"/><text class="m" x="22" y="14.5" style="font-size:11.5px">v3</text><rect x="44" y="8" width="28" height="4" rx="2" fill="#8b949e" fill-opacity=".5"/></g><g class="vhl" transform="translate(334 138)"><rect width="82" height="20" rx="6" fill="none" stroke="#818cf8" stroke-width="1.5"/><circle cx="12" cy="10" r="3" fill="#818cf8"/></g>
+    <g class="v v1" transform="translate(334 186)"><rect width="82" height="20" rx="6" fill="#f6f8fa" stroke="#d0d7de"/><circle cx="12" cy="10" r="3" fill="#59636e"/><text class="m" x="22" y="14.5" style="font-size:11.5px">v1</text><rect x="44" y="8" width="28" height="4" rx="2" fill="#59636e" fill-opacity=".5"/></g><g class="v v2" transform="translate(334 162)"><rect width="82" height="20" rx="6" fill="#f6f8fa" stroke="#d0d7de"/><circle cx="12" cy="10" r="3" fill="#59636e"/><text class="m" x="22" y="14.5" style="font-size:11.5px">v2</text><rect x="44" y="8" width="28" height="4" rx="2" fill="#59636e" fill-opacity=".5"/></g><g class="v v3" transform="translate(334 138)"><rect width="82" height="20" rx="6" fill="#f6f8fa" stroke="#d0d7de"/><circle cx="12" cy="10" r="3" fill="#59636e"/><text class="m" x="22" y="14.5" style="font-size:11.5px">v3</text><rect x="44" y="8" width="28" height="4" rx="2" fill="#59636e" fill-opacity=".5"/></g><g class="vhl" transform="translate(334 138)"><rect width="82" height="20" rx="6" fill="none" stroke="#4f46e5" stroke-width="1.5"/><circle cx="12" cy="10" r="3" fill="#4f46e5"/></g>
 
-    <rect x="24" y="242" width="296" height="8" rx="4" fill="#161b22" stroke="#30363d"/>
-    <rect class="fill" x="24" y="242" width="296" height="8" rx="4" fill="#818cf8"/>
-    <g class="chk chk1" transform="translate(24 262)"><circle cx="8" cy="8" r="8" fill="#818cf8" fill-opacity=".2"/><path d="M4.5 8.2 l2.4 2.4 l4.6 -5" stroke="#818cf8" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><text class="m" x="22" y="12.5">clarity</text></g><g class="chk chk2" transform="translate(114 262)"><circle cx="8" cy="8" r="8" fill="#818cf8" fill-opacity=".2"/><path d="M4.5 8.2 l2.4 2.4 l4.6 -5" stroke="#818cf8" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><text class="m" x="22" y="12.5">context</text></g><g class="chk chk3" transform="translate(206 262)"><circle cx="8" cy="8" r="8" fill="#818cf8" fill-opacity=".2"/><path d="M4.5 8.2 l2.4 2.4 l4.6 -5" stroke="#818cf8" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><text class="m" x="22" y="12.5">format</text></g>
+    <rect x="24" y="242" width="296" height="8" rx="4" fill="#f6f8fa" stroke="#d0d7de"/>
+    <rect class="fill" x="24" y="242" width="296" height="8" rx="4" fill="#4f46e5"/>
+    <g class="chk chk1" transform="translate(24 262)"><circle cx="8" cy="8" r="8" fill="#4f46e5" fill-opacity=".2"/><path d="M4.5 8.2 l2.4 2.4 l4.6 -5" stroke="#4f46e5" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><text class="m" x="22" y="12.5">clarity</text></g><g class="chk chk2" transform="translate(114 262)"><circle cx="8" cy="8" r="8" fill="#4f46e5" fill-opacity=".2"/><path d="M4.5 8.2 l2.4 2.4 l4.6 -5" stroke="#4f46e5" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><text class="m" x="22" y="12.5">context</text></g><g class="chk chk3" transform="translate(206 262)"><circle cx="8" cy="8" r="8" fill="#4f46e5" fill-opacity=".2"/><path d="M4.5 8.2 l2.4 2.4 l4.6 -5" stroke="#4f46e5" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><text class="m" x="22" y="12.5">format</text></g>
     </g>
     
   </g>
-  <rect x=".5" y=".5" width="899" height="279" rx="16" fill="none" stroke="#30363d"/>
+  <rect x=".5" y=".5" width="899" height="279" rx="16" fill="none" stroke="#d0d7de"/>
 </svg>

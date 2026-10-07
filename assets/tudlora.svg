@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="280" viewBox="0 0 900 280" role="img" aria-label="Tudlora: search developer courses from Coursera, Udemy, edX, Codecademy, Udacity, Pluralsight and Scrimba in one place">
   <title>Tudlora: search developer courses from Coursera, Udemy, edX, Codecademy, Udacity, Pluralsight and Scrimba in one place</title>
   <style>
-    .t { font: 800 32px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #e6edf3; letter-spacing: -.3px }
-    .tag { font: 500 15px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #8b949e }
-    .m { font: 500 13px ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; fill: #c9d1d9 }
-    .ms { font: 600 11px ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; fill: #8b949e; letter-spacing: .6px }
-    .chip { font: 600 11.5px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #c9d1d9 }
-    .url { font: 500 12px ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; fill: #8b949e }
-    .live { font: 700 10.5px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #3fb950; letter-spacing: .8px }
+    .t { font: 800 32px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #1f2328; letter-spacing: -.3px }
+    .tag { font: 500 15px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #59636e }
+    .m { font: 500 13px ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; fill: #424a53 }
+    .ms { font: 600 11px ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; fill: #59636e; letter-spacing: .6px }
+    .chip { font: 600 11.5px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #424a53 }
+    .url { font: 500 12px ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; fill: #59636e }
+    .live { font: 700 10.5px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #1a7f37; letter-spacing: .8px }
     .ld { animation: lp 1.8s ease-in-out 4; transform-box: fill-box; transform-origin: center }
     @keyframes lp { 0%,100% { opacity: 1; transform: scale(1) } 50% { opacity: .3; transform: scale(.6) } }
     
@@ -26,16 +26,16 @@
     <clipPath id="f"><rect width="900" height="280" rx="16"/></clipPath>
   </defs>
   <g clip-path="url(#f)">
-    <rect width="900" height="280" fill="#0d1117"/>
-    <rect width="900" height="38" fill="#161b22"/>
-    <line x1="0" y1="38" x2="900" y2="38" stroke="#30363d"/>
+    <rect width="900" height="280" fill="#ffffff"/>
+    <rect width="900" height="38" fill="#f6f8fa"/>
+    <line x1="0" y1="38" x2="900" y2="38" stroke="#d0d7de"/>
     <circle cx="20" cy="19" r="5" fill="#ff5f57"/><circle cx="36" cy="19" r="5" fill="#febc2e"/><circle cx="52" cy="19" r="5" fill="#28c840"/>
-    <rect x="76" y="9" width="300" height="20" rx="10" fill="#0d1117" stroke="#30363d"/>
-    <path d="M88 17.5 v-2 a3 3 0 0 1 6 0 v2 M86.5 17.5 h9 v6 h-9 z" fill="none" stroke="#8b949e" stroke-width="1.2"/>
+    <rect x="76" y="9" width="300" height="20" rx="10" fill="#ffffff" stroke="#d0d7de"/>
+    <path d="M88 17.5 v-2 a3 3 0 0 1 6 0 v2 M86.5 17.5 h9 v6 h-9 z" fill="none" stroke="#59636e" stroke-width="1.2"/>
     <text class="url" x="101" y="23">tudlora.com</text>
     <g transform="translate(818 10)">
-      <rect width="62" height="18" rx="9" fill="#0f2417" stroke="#238636"/>
-      <circle class="ld" cx="12" cy="9" r="3.5" fill="#3fb950"/>
+      <rect width="62" height="18" rx="9" fill="#dafbe1" stroke="#1a7f37"/>
+      <circle class="ld" cx="12" cy="9" r="3.5" fill="#1a7f37"/>
       <text class="live" x="21" y="13">LIVE</text>
     </g>
     
@@ -43,40 +43,40 @@
     <text class="tag" x="32" y="136">Find your next course</text>
     <text class="tag" x="32" y="158">in one place.</text>
     <g transform="translate(436 -48)">
-    <rect x="24" y="122" width="392" height="36" rx="18" fill="#161b22" stroke="#2dd4bf" stroke-opacity=".7"/>
-    <circle cx="42" cy="139" r="6" fill="none" stroke="#2dd4bf" stroke-width="2"/>
-    <line x1="46.5" y1="143.5" x2="51" y2="148" stroke="#2dd4bf" stroke-width="2" stroke-linecap="round"/>
+    <rect x="24" y="122" width="392" height="36" rx="18" fill="#f6f8fa" stroke="#0d9488" stroke-opacity=".7"/>
+    <circle cx="42" cy="139" r="6" fill="none" stroke="#0d9488" stroke-width="2"/>
+    <line x1="46.5" y1="143.5" x2="51" y2="148" stroke="#0d9488" stroke-width="2" stroke-linecap="round"/>
     <text class="m q" style="animation-name:q0" x="56.0" y="146">b</text><text class="m q" style="animation-name:q1" x="63.8" y="146">e</text><text class="m q" style="animation-name:q2" x="71.6" y="146">s</text><text class="m q" style="animation-name:q3" x="79.4" y="146">t</text><text class="m q" style="animation-name:q4" x="87.2" y="146"> </text><text class="m q" style="animation-name:q5" x="95.0" y="146">l</text><text class="m q" style="animation-name:q6" x="102.8" y="146">a</text><text class="m q" style="animation-name:q7" x="110.6" y="146">r</text><text class="m q" style="animation-name:q8" x="118.4" y="146">a</text><text class="m q" style="animation-name:q9" x="126.2" y="146">v</text><text class="m q" style="animation-name:q10" x="134.0" y="146">e</text><text class="m q" style="animation-name:q11" x="141.8" y="146">l</text><text class="m q" style="animation-name:q12" x="149.6" y="146"> </text><text class="m q" style="animation-name:q13" x="157.39999999999998" y="146">c</text><text class="m q" style="animation-name:q14" x="165.2" y="146">o</text><text class="m q" style="animation-name:q15" x="173.0" y="146">u</text><text class="m q" style="animation-name:q16" x="180.8" y="146">r</text><text class="m q" style="animation-name:q17" x="188.6" y="146">s</text><text class="m q" style="animation-name:q18" x="196.4" y="146">e</text><text class="m q" style="animation-name:q19" x="204.2" y="146">s</text>
-    <g class="curpos"><rect class="cur" x="56" y="133" width="2" height="16" fill="#2dd4bf"/></g>
+    <g class="curpos"><rect class="cur" x="56" y="133" width="2" height="16" fill="#0d9488"/></g>
     
     <g class="res r1"><g transform="translate(24 168)">
-      <rect width="392" height="36" rx="8" fill="#161b22" stroke="#30363d"/>
-      <rect x="8" y="7" width="38" height="22" rx="5" fill="#a78bfa" fill-opacity=".25"/>
-      <path d="M22 13 l9 5 l-9 5 z" fill="#a78bfa"/>
-      <rect x="56" y="11" width="210" height="6" rx="3" fill="#c9d1d9" fill-opacity=".55"/>
-      <rect x="56" y="22" width="116" height="5" rx="2.5" fill="#8b949e" fill-opacity=".45"/>
-      <g transform="translate(321.4 7)"><g transform="translate(0 0)"><rect width="62.6" height="22" rx="11" fill="#0d1117" stroke="#a78bfa"/><text class="chip" x="31.3" y="15" text-anchor="middle">Udemy</text></g></g>
+      <rect width="392" height="36" rx="8" fill="#f6f8fa" stroke="#d0d7de"/>
+      <rect x="8" y="7" width="38" height="22" rx="5" fill="#7c3aed" fill-opacity=".25"/>
+      <path d="M22 13 l9 5 l-9 5 z" fill="#7c3aed"/>
+      <rect x="56" y="11" width="210" height="6" rx="3" fill="#424a53" fill-opacity=".55"/>
+      <rect x="56" y="22" width="116" height="5" rx="2.5" fill="#59636e" fill-opacity=".45"/>
+      <g transform="translate(321.4 7)"><g transform="translate(0 0)"><rect width="62.6" height="22" rx="11" fill="#ffffff" stroke="#7c3aed"/><text class="chip" x="31.3" y="15" text-anchor="middle">Udemy</text></g></g>
     </g></g>
     <g class="res r2"><g transform="translate(24 210)">
-      <rect width="392" height="36" rx="8" fill="#161b22" stroke="#30363d"/>
-      <rect x="8" y="7" width="38" height="22" rx="5" fill="#60a5fa" fill-opacity=".25"/>
-      <path d="M22 13 l9 5 l-9 5 z" fill="#60a5fa"/>
-      <rect x="56" y="11" width="176" height="6" rx="3" fill="#c9d1d9" fill-opacity=".55"/>
-      <rect x="56" y="22" width="97" height="5" rx="2.5" fill="#8b949e" fill-opacity=".45"/>
-      <g transform="translate(308.5 7)"><g transform="translate(0 0)"><rect width="75.5" height="22" rx="11" fill="#0d1117" stroke="#60a5fa"/><text class="chip" x="37.8" y="15" text-anchor="middle">Coursera</text></g></g>
+      <rect width="392" height="36" rx="8" fill="#f6f8fa" stroke="#d0d7de"/>
+      <rect x="8" y="7" width="38" height="22" rx="5" fill="#2563eb" fill-opacity=".25"/>
+      <path d="M22 13 l9 5 l-9 5 z" fill="#2563eb"/>
+      <rect x="56" y="11" width="176" height="6" rx="3" fill="#424a53" fill-opacity=".55"/>
+      <rect x="56" y="22" width="97" height="5" rx="2.5" fill="#59636e" fill-opacity=".45"/>
+      <g transform="translate(308.5 7)"><g transform="translate(0 0)"><rect width="75.5" height="22" rx="11" fill="#ffffff" stroke="#2563eb"/><text class="chip" x="37.8" y="15" text-anchor="middle">Coursera</text></g></g>
     </g></g>
     <g class="res r3"><g transform="translate(24 252)">
-      <rect width="392" height="36" rx="8" fill="#161b22" stroke="#30363d"/>
-      <rect x="8" y="7" width="38" height="22" rx="5" fill="#f472b6" fill-opacity=".25"/>
-      <path d="M22 13 l9 5 l-9 5 z" fill="#f472b6"/>
-      <rect x="56" y="11" width="196" height="6" rx="3" fill="#c9d1d9" fill-opacity=".55"/>
-      <rect x="56" y="22" width="108" height="5" rx="2.5" fill="#8b949e" fill-opacity=".45"/>
-      <g transform="translate(339.6 7)"><g transform="translate(0 0)"><rect width="44.4" height="22" rx="11" fill="#0d1117" stroke="#f472b6"/><text class="chip" x="22.2" y="15" text-anchor="middle">edX</text></g></g>
+      <rect width="392" height="36" rx="8" fill="#f6f8fa" stroke="#d0d7de"/>
+      <rect x="8" y="7" width="38" height="22" rx="5" fill="#db2777" fill-opacity=".25"/>
+      <path d="M22 13 l9 5 l-9 5 z" fill="#db2777"/>
+      <rect x="56" y="11" width="196" height="6" rx="3" fill="#424a53" fill-opacity=".55"/>
+      <rect x="56" y="22" width="108" height="5" rx="2.5" fill="#59636e" fill-opacity=".45"/>
+      <g transform="translate(339.6 7)"><g transform="translate(0 0)"><rect width="44.4" height="22" rx="11" fill="#ffffff" stroke="#db2777"/><text class="chip" x="22.2" y="15" text-anchor="middle">edX</text></g></g>
     </g></g>
     </g>
 
-    <g transform="translate(32.0 226)"><rect width="75.5" height="22" rx="11" fill="#161b22" stroke="#30363d"/><text class="chip" x="37.8" y="15" text-anchor="middle">Coursera</text></g><g transform="translate(115.5 226)"><rect width="62.6" height="22" rx="11" fill="#161b22" stroke="#30363d"/><text class="chip" x="31.3" y="15" text-anchor="middle">Udemy</text></g><g transform="translate(186.1 226)"><rect width="44.4" height="22" rx="11" fill="#161b22" stroke="#30363d"/><text class="chip" x="22.2" y="15" text-anchor="middle">edX</text></g><g transform="translate(238.5 226)"><rect width="97.9" height="22" rx="11" fill="#161b22" stroke="#30363d"/><text class="chip" x="49.0" y="15" text-anchor="middle">Codecademy</text></g><g transform="translate(344.4 226)"><rect width="66.0" height="22" rx="11" fill="#161b22" stroke="#30363d"/><text class="chip" x="33.0" y="15" text-anchor="middle">Udacity</text></g>
+    <g transform="translate(32.0 226)"><rect width="75.5" height="22" rx="11" fill="#f6f8fa" stroke="#d0d7de"/><text class="chip" x="37.8" y="15" text-anchor="middle">Coursera</text></g><g transform="translate(115.5 226)"><rect width="62.6" height="22" rx="11" fill="#f6f8fa" stroke="#d0d7de"/><text class="chip" x="31.3" y="15" text-anchor="middle">Udemy</text></g><g transform="translate(186.1 226)"><rect width="44.4" height="22" rx="11" fill="#f6f8fa" stroke="#d0d7de"/><text class="chip" x="22.2" y="15" text-anchor="middle">edX</text></g><g transform="translate(238.5 226)"><rect width="97.9" height="22" rx="11" fill="#f6f8fa" stroke="#d0d7de"/><text class="chip" x="49.0" y="15" text-anchor="middle">Codecademy</text></g><g transform="translate(344.4 226)"><rect width="66.0" height="22" rx="11" fill="#f6f8fa" stroke="#d0d7de"/><text class="chip" x="33.0" y="15" text-anchor="middle">Udacity</text></g>
     
   </g>
-  <rect x=".5" y=".5" width="899" height="279" rx="16" fill="none" stroke="#30363d"/>
+  <rect x=".5" y=".5" width="899" height="279" rx="16" fill="none" stroke="#d0d7de"/>
 </svg>
