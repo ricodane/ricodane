@@ -266,10 +266,17 @@ def window(url: str, accent: str, body: str, css: str, label: str) -> str:
 """
 
 
+# Label widths at 600 11.5px, measured in a browser with Helvetica/Arial metrics.
+# Labels are centered, so small differences between system fonts stay even on both sides.
+LABEL_W = {"Chrome": 43.5, "Firefox": 38.3, "Edge": 28.1, "Coursera": 50.5, "Udemy": 38.3, "edX": 21.1,
+           "Codecademy": 71.6, "Udacity": 41.5, "Pluralsight": 59.4, "Scrimba": 45.4}
+
+
 def chip(x: float, y: float, text: str, fill: str = PANEL, stroke: str = BORDER, cls: str = "chip", extra: str = "") -> tuple[str, float]:
-    w = len(text) * 7.0 + 20
+    tw = LABEL_W.get(text, len(text) * 6.4) * 1.06   # macOS system font runs slightly wider
+    w = round(tw + 22, 1)
     return (f'<g transform="translate({x} {y})"{extra}><rect width="{w}" height="22" rx="11" fill="{fill}" stroke="{stroke}"/>'
-            f'<text class="{cls}" x="10" y="15">{text}</text></g>'), w
+            f'<text class="{cls}" x="{w / 2:.1f}" y="15" text-anchor="middle">{text}</text></g>'), w
 
 
 # --------------------------------------------------------------------------
@@ -507,6 +514,7 @@ def footer() -> str:
 
 if __name__ == "__main__":
     for name, fn in [("header", header), ("spaceprompts", spaceprompts), ("tudlora", tudlora),
-                     ("paws", paws), ("footer", footer)]:
+                     ("paws", paws)]:
+        # assets/footer.svg is built by tools/build_footer.py from your real contribution graph
         (OUT / f"{name}.svg").write_text(fn(), encoding="utf-8")
         print(f"wrote {name}.svg")
