@@ -90,13 +90,11 @@
     @keyframes bub { 0%,62.00% { opacity: 0; transform: scale(.6) } 65.00%,91.00% { opacity: 1; transform: scale(1) } 93.00%,100% { opacity: 0; transform: scale(.6) } }</style>
   <defs>
     <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#ffffff" opacity=".05"/></pattern>
-    <radialGradient id="glow" cx="12%" cy="0%" r="70%"><stop offset="0" stop-color="#fb923c" stop-opacity=".16"/><stop offset="1" stop-color="#fb923c" stop-opacity="0"/></radialGradient>
     <clipPath id="frame"><rect width="900" height="330" rx="18"/></clipPath>
   </defs>
   <g clip-path="url(#frame)">
     <rect width="900" height="330" fill="#0d1117"/>
     <rect width="900" height="330" fill="url(#dots)"/>
-    <rect width="900" height="330" fill="url(#glow)"/>
 
     <text class="name" x="46" y="98">Rico Daniel <tspan class="cat-word">Cat</tspan>acutan</text>
     <text class="sub" x="48" y="138">Full-stack developer</text>
