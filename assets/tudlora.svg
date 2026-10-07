@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="280" viewBox="0 0 900 280" role="img" aria-label="Tudlora: search developer courses from Coursera, Udemy, edX, Codecademy, Udacity, Pluralsight and Scrimba in one place">
+  <title>Tudlora: search developer courses from Coursera, Udemy, edX, Codecademy, Udacity, Pluralsight and Scrimba in one place</title>
+  <style>
+    .t { font: 800 32px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #e6edf3; letter-spacing: -.3px }
+    .tag { font: 500 15px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #8b949e }
+    .m { font: 500 13px ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; fill: #c9d1d9 }
+    .ms { font: 600 11px ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; fill: #8b949e; letter-spacing: .6px }
+    .chip { font: 600 11.5px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #c9d1d9 }
+    .url { font: 500 12px ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; fill: #8b949e }
+    .live { font: 700 10.5px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #3fb950; letter-spacing: .8px }
+    .ld { animation: lp 1.8s ease-in-out 4; transform-box: fill-box; transform-origin: center }
+    @keyframes lp { 0%,100% { opacity: 1; transform: scale(1) } 50% { opacity: .3; transform: scale(.6) } }
+    
+    .q { opacity: 0; animation: 9.0s linear 1 forwards }
+    .res { opacity: 0; animation: 9.0s ease-out 1 forwards }
+    .r1 { animation-name: r1 } .r2 { animation-name: r2 } .r3 { animation-name: r3 }
+    @keyframes r1 { 0%,34% { opacity: 0; transform: translateY(8px) } 39%,100% { opacity: 1; transform: translateY(0) } }
+    @keyframes r2 { 0%,39% { opacity: 0; transform: translateY(8px) } 44%,100% { opacity: 1; transform: translateY(0) } }
+    @keyframes r3 { 0%,44% { opacity: 0; transform: translateY(8px) } 49%,100% { opacity: 1; transform: translateY(0) } }
+    .marq { animation: marq 14s linear 1 forwards }
+    .cur { animation: cur 1s steps(1) 6 }
+    @keyframes cur { 50% { opacity: 0 } }
+    .curpos { animation: curpos 9.0s linear 1 forwards }
+    @keyframes q0{0%,4.00%{opacity:0}4.20%,100%{opacity:1}}@keyframes q1{0%,5.40%{opacity:0}5.60%,100%{opacity:1}}@keyframes q2{0%,6.80%{opacity:0}7.00%,100%{opacity:1}}@keyframes q3{0%,8.20%{opacity:0}8.40%,100%{opacity:1}}@keyframes q4{0%,9.60%{opacity:0}9.80%,100%{opacity:1}}@keyframes q5{0%,11.00%{opacity:0}11.20%,100%{opacity:1}}@keyframes q6{0%,12.40%{opacity:0}12.60%,100%{opacity:1}}@keyframes q7{0%,13.80%{opacity:0}14.00%,100%{opacity:1}}@keyframes q8{0%,15.20%{opacity:0}15.40%,100%{opacity:1}}@keyframes q9{0%,16.60%{opacity:0}16.80%,100%{opacity:1}}@keyframes q10{0%,18.00%{opacity:0}18.20%,100%{opacity:1}}@keyframes q11{0%,19.40%{opacity:0}19.60%,100%{opacity:1}}@keyframes q12{0%,20.80%{opacity:0}21.00%,100%{opacity:1}}@keyframes q13{0%,22.20%{opacity:0}22.40%,100%{opacity:1}}@keyframes q14{0%,23.60%{opacity:0}23.80%,100%{opacity:1}}@keyframes q15{0%,25.00%{opacity:0}25.20%,100%{opacity:1}}@keyframes q16{0%,26.40%{opacity:0}26.60%,100%{opacity:1}}@keyframes q17{0%,27.80%{opacity:0}28.00%,100%{opacity:1}}@keyframes q18{0%,29.20%{opacity:0}29.40%,100%{opacity:1}}@keyframes q19{0%,30.60%{opacity:0}30.80%,100%{opacity:1}}@keyframes curpos{0%{transform:translateX(0)}4.00%{transform:translateX(0.0px)}4.20%{transform:translateX(7.8px)}5.40%{transform:translateX(7.8px)}5.60%{transform:translateX(15.6px)}6.80%{transform:translateX(15.6px)}7.00%{transform:translateX(23.4px)}8.20%{transform:translateX(23.4px)}8.40%{transform:translateX(31.2px)}9.60%{transform:translateX(31.2px)}9.80%{transform:translateX(39.0px)}11.00%{transform:translateX(39.0px)}11.20%{transform:translateX(46.8px)}12.40%{transform:translateX(46.8px)}12.60%{transform:translateX(54.6px)}13.80%{transform:translateX(54.6px)}14.00%{transform:translateX(62.4px)}15.20%{transform:translateX(62.4px)}15.40%{transform:translateX(70.2px)}16.60%{transform:translateX(70.2px)}16.80%{transform:translateX(78.0px)}18.00%{transform:translateX(78.0px)}18.20%{transform:translateX(85.8px)}19.40%{transform:translateX(85.8px)}19.60%{transform:translateX(93.6px)}20.80%{transform:translateX(93.6px)}21.00%{transform:translateX(101.39999999999999px)}22.20%{transform:translateX(101.39999999999999px)}22.40%{transform:translateX(109.2px)}23.60%{transform:translateX(109.2px)}23.80%{transform:translateX(117.0px)}25.00%{transform:translateX(117.0px)}25.20%{transform:translateX(124.8px)}26.40%{transform:translateX(124.8px)}26.60%{transform:translateX(132.6px)}27.80%{transform:translateX(132.6px)}28.00%{transform:translateX(140.4px)}29.20%{transform:translateX(140.4px)}29.40%{transform:translateX(148.2px)}30.60%{transform:translateX(148.2px)}30.80%{transform:translateX(156.0px)}100%{transform:translateX(156.0px)}}@keyframes marq{from{transform:translateX(0)}to{transform:translateX(-553.0px)}}
+  </style>
+  <defs>
+    <clipPath id="f"><rect width="900" height="280" rx="16"/></clipPath>
+    <radialGradient id="g" cx="100%" cy="0%" r="80%"><stop offset="0" stop-color="#2dd4bf" stop-opacity=".20"/><stop offset="1" stop-color="#2dd4bf" stop-opacity="0"/></radialGradient>
+  </defs>
+  <g clip-path="url(#f)">
+    <rect width="900" height="280" fill="#0d1117"/>
+    <rect width="900" height="280" fill="url(#g)"/>
+    <rect width="900" height="38" fill="#161b22"/>
+    <line x1="0" y1="38" x2="900" y2="38" stroke="#30363d"/>
+    <circle cx="20" cy="19" r="5" fill="#ff5f57"/><circle cx="36" cy="19" r="5" fill="#febc2e"/><circle cx="52" cy="19" r="5" fill="#28c840"/>
+    <rect x="76" y="9" width="300" height="20" rx="10" fill="#0d1117" stroke="#30363d"/>
+    <path d="M88 17.5 v-2 a3 3 0 0 1 6 0 v2 M86.5 17.5 h9 v6 h-9 z" fill="none" stroke="#8b949e" stroke-width="1.2"/>
+    <text class="url" x="101" y="23">tudlora.com</text>
+    <g transform="translate(818 10)">
+      <rect width="62" height="18" rx="9" fill="#0f2417" stroke="#238636"/>
+      <circle class="ld" cx="12" cy="9" r="3.5" fill="#3fb950"/>
+      <text class="live" x="21" y="13">LIVE</text>
+    </g>
+    
+    <text class="t" x="32" y="104">Tudlora</text>
+    <text class="tag" x="32" y="136">Find your next course</text>
+    <text class="tag" x="32" y="158">in one place.</text>
+    <g transform="translate(436 -48)">
+    <rect x="24" y="122" width="392" height="36" rx="18" fill="#161b22" stroke="#2dd4bf" stroke-opacity=".7"/>
+    <circle cx="42" cy="139" r="6" fill="none" stroke="#2dd4bf" stroke-width="2"/>
+    <line x1="46.5" y1="143.5" x2="51" y2="148" stroke="#2dd4bf" stroke-width="2" stroke-linecap="round"/>
+    <text class="m q" style="animation-name:q0" x="56.0" y="146">b</text><text class="m q" style="animation-name:q1" x="63.8" y="146">e</text><text class="m q" style="animation-name:q2" x="71.6" y="146">s</text><text class="m q" style="animation-name:q3" x="79.4" y="146">t</text><text class="m q" style="animation-name:q4" x="87.2" y="146"> </text><text class="m q" style="animation-name:q5" x="95.0" y="146">l</text><text class="m q" style="animation-name:q6" x="102.8" y="146">a</text><text class="m q" style="animation-name:q7" x="110.6" y="146">r</text><text class="m q" style="animation-name:q8" x="118.4" y="146">a</text><text class="m q" style="animation-name:q9" x="126.2" y="146">v</text><text class="m q" style="animation-name:q10" x="134.0" y="146">e</text><text class="m q" style="animation-name:q11" x="141.8" y="146">l</text><text class="m q" style="animation-name:q12" x="149.6" y="146"> </text><text class="m q" style="animation-name:q13" x="157.39999999999998" y="146">c</text><text class="m q" style="animation-name:q14" x="165.2" y="146">o</text><text class="m q" style="animation-name:q15" x="173.0" y="146">u</text><text class="m q" style="animation-name:q16" x="180.8" y="146">r</text><text class="m q" style="animation-name:q17" x="188.6" y="146">s</text><text class="m q" style="animation-name:q18" x="196.4" y="146">e</text><text class="m q" style="animation-name:q19" x="204.2" y="146">s</text>
+    <g class="curpos"><rect class="cur" x="56" y="133" width="2" height="16" fill="#2dd4bf"/></g>
+    
+    <g class="res r1"><g transform="translate(24 168)">
+      <rect width="392" height="36" rx="8" fill="#161b22" stroke="#30363d"/>
+      <rect x="8" y="7" width="38" height="22" rx="5" fill="#a78bfa" fill-opacity=".25"/>
+      <path d="M22 13 l9 5 l-9 5 z" fill="#a78bfa"/>
+      <rect x="56" y="11" width="210" height="6" rx="3" fill="#c9d1d9" fill-opacity=".55"/>
+      <rect x="56" y="22" width="116" height="5" rx="2.5" fill="#8b949e" fill-opacity=".45"/>
+      <g transform="translate(329.0 7)"><g transform="translate(0 0)"><rect width="55.0" height="22" rx="11" fill="#0d1117" stroke="#a78bfa"/><text class="chip" x="10" y="15">Udemy</text></g></g>
+    </g></g>
+    <g class="res r2"><g transform="translate(24 210)">
+      <rect width="392" height="36" rx="8" fill="#161b22" stroke="#30363d"/>
+      <rect x="8" y="7" width="38" height="22" rx="5" fill="#60a5fa" fill-opacity=".25"/>
+      <path d="M22 13 l9 5 l-9 5 z" fill="#60a5fa"/>
+      <rect x="56" y="11" width="176" height="6" rx="3" fill="#c9d1d9" fill-opacity=".55"/>
+      <rect x="56" y="22" width="97" height="5" rx="2.5" fill="#8b949e" fill-opacity=".45"/>
+      <g transform="translate(308.0 7)"><g transform="translate(0 0)"><rect width="76.0" height="22" rx="11" fill="#0d1117" stroke="#60a5fa"/><text class="chip" x="10" y="15">Coursera</text></g></g>
+    </g></g>
+    <g class="res r3"><g transform="translate(24 252)">
+      <rect width="392" height="36" rx="8" fill="#161b22" stroke="#30363d"/>
+      <rect x="8" y="7" width="38" height="22" rx="5" fill="#f472b6" fill-opacity=".25"/>
+      <path d="M22 13 l9 5 l-9 5 z" fill="#f472b6"/>
+      <rect x="56" y="11" width="196" height="6" rx="3" fill="#c9d1d9" fill-opacity=".55"/>
+      <rect x="56" y="22" width="108" height="5" rx="2.5" fill="#8b949e" fill-opacity=".45"/>
+      <g transform="translate(343.0 7)"><g transform="translate(0 0)"><rect width="41.0" height="22" rx="11" fill="#0d1117" stroke="#f472b6"/><text class="chip" x="10" y="15">edX</text></g></g>
+    </g></g>
+    </g>
+
+    <defs><clipPath id="strip"><rect x="32" y="224" width="360" height="26"/></clipPath>
+    <linearGradient id="fadeL" x1="0" x2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#0d1117" stop-opacity="0"/></linearGradient>
+    <linearGradient id="fadeR" x1="0" x2="1"><stop offset="0" stop-color="#0d1117" stop-opacity="0"/><stop offset="1" stop-color="#0d1117"/></linearGradient></defs>
+    <g clip-path="url(#strip)"><g transform="translate(32 226)"><g class="marq"><g transform="translate(0.0 0)"><rect width="76.0" height="22" rx="11" fill="#161b22" stroke="#30363d"/><text class="chip" x="10" y="15">Coursera</text></g><g transform="translate(84.0 0)"><rect width="55.0" height="22" rx="11" fill="#161b22" stroke="#30363d"/><text class="chip" x="10" y="15">Udemy</text></g><g transform="translate(147.0 0)"><rect width="41.0" height="22" rx="11" fill="#161b22" stroke="#30363d"/><text class="chip" x="10" y="15">edX</text></g><g transform="translate(196.0 0)"><rect width="90.0" height="22" rx="11" fill="#161b22" stroke="#30363d"/><text class="chip" x="10" y="15">Codecademy</text></g><g transform="translate(294.0 0)"><rect width="69.0" height="22" rx="11" fill="#161b22" stroke="#30363d"/><text class="chip" x="10" y="15">Udacity</text></g><g transform="translate(371.0 0)"><rect width="97.0" height="22" rx="11" fill="#161b22" stroke="#30363d"/><text class="chip" x="10" y="15">Pluralsight</text></g><g transform="translate(476.0 0)"><rect width="69.0" height="22" rx="11" fill="#161b22" stroke="#30363d"/><text class="chip" x="10" y="15">Scrimba</text></g><g transform="translate(553.0 0)"><rect width="76.0" height="22" rx="11" fill="#161b22" stroke="#30363d"/><text class="chip" x="10" y="15">Coursera</text></g><g transform="translate(637.0 0)"><rect width="55.0" height="22" rx="11" fill="#161b22" stroke="#30363d"/><text class="chip" x="10" y="15">Udemy</text></g><g transform="translate(700.0 0)"><rect width="41.0" height="22" rx="11" fill="#161b22" stroke="#30363d"/><text class="chip" x="10" y="15">edX</text></g><g transform="translate(749.0 0)"><rect width="90.0" height="22" rx="11" fill="#161b22" stroke="#30363d"/><text class="chip" x="10" y="15">Codecademy</text></g><g transform="translate(847.0 0)"><rect width="69.0" height="22" rx="11" fill="#161b22" stroke="#30363d"/><text class="chip" x="10" y="15">Udacity</text></g><g transform="translate(924.0 0)"><rect width="97.0" height="22" rx="11" fill="#161b22" stroke="#30363d"/><text class="chip" x="10" y="15">Pluralsight</text></g><g transform="translate(1029.0 0)"><rect width="69.0" height="22" rx="11" fill="#161b22" stroke="#30363d"/><text class="chip" x="10" y="15">Scrimba</text></g></g></g></g>
+    <rect x="32" y="224" width="24" height="26" fill="url(#fadeL)"/>
+    <rect x="368" y="224" width="24" height="26" fill="url(#fadeR)"/>
+    
+  </g>
+  <rect x=".5" y=".5" width="899" height="279" rx="16" fill="none" stroke="#30363d"/>
+</svg>
