@@ -14,22 +14,14 @@
 ### Projects
 
 <a href="https://www.spaceprompts.com"><img src="assets/spaceprompts.svg" width="100%" alt="SpacePrompts" /></a>
-<!-- Screenshot: save one as assets/spaceprompts.png, then remove the comment markers around the next line -->
-<!-- <a href="https://www.spaceprompts.com"><img src="assets/spaceprompts.png" width="100%" alt="SpacePrompts screenshot" /></a> -->
 
 A prompt management tool with a playground that supports variables, version history, a prompt evaluator, and browser extensions for Chrome, Firefox and Edge.
-
-`Laravel` `Browser extension`
 
 <br />
 
 <a href="https://www.tudlora.com"><img src="assets/tudlora.svg" width="100%" alt="Tudlora" /></a>
-<!-- Screenshot: save one as assets/tudlora.png, then remove the comment markers around the next line -->
-<!-- <a href="https://www.tudlora.com"><img src="assets/tudlora.png" width="100%" alt="Tudlora screenshot" /></a> -->
 
 A course search site for developers. It collects courses from Coursera, Udemy, edX and other platforms, along with their prices and details.
-
-`Next.js` `Laravel` `Typesense` `Auth.js`
 
 ### Tech Stack
 
