@@ -26,7 +26,7 @@ A course search site for developers. It collects courses from Coursera, Udemy, e
 ### Tech Stack
 
 <p align="center">
-  <a href="https://github.com/LelouchFR/skill-icons"><img src="https://go-skill-icons.vercel.app/api/icons?i=typescript,nextjs,react,reactnative,expo,nodejs,laravel,php,linux,nginx,cloudflare&perline=11" alt="TypeScript, Next.js, React, React Native, Expo, Node.js, Laravel, PHP, Linux, Nginx, Cloudflare" /></a>
+    <img src="https://go-skill-icons.vercel.app/api/icons?i=typescript,nextjs,react,reactnative,expo,nodejs,laravel,php,linux,nginx,cloudflare&perline=11" alt="TypeScript, Next.js, React, React Native, Expo, Node.js, Laravel, PHP, Linux, Nginx, Cloudflare" />
 </p>
 
 <p align="center">
