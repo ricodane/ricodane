@@ -31,23 +31,6 @@ A course search site for developers. It collects courses from Coursera, Udemy, e
 
 `Next.js` `Laravel` `Typesense` `Auth.js`
 
-### Open source
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/ricodane/ai-token-counter"><b>ai-token-counter</b></a><br />
-      <sub>Count tokens and estimate AI costs for ChatGPT, Claude, Gemini and DeepSeek models.</sub><br /><br />
-      <code>TypeScript</code>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/ricodane/laravel-mcp-claude"><b>laravel-mcp-claude</b></a><br />
-      <sub>A Laravel MCP server that connects to Claude Code and claude.ai.</sub><br /><br />
-      <code>Laravel</code> <code>MCP</code>
-    </td>
-  </tr>
-</table>
-
 ### Tech Stack
 
 <p align="center">
